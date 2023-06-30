@@ -1,18 +1,42 @@
-# feetwings_auth
+# FeetWings Auth
 
-A new Flutter project.
+- The FeetWings App Authentication is a frontend application developed using Flutter and Firebase.
+- It provides a seamless and secure user authentication experience for the FeetWings app, ensuring that users can safely access the app's features and services using OTP.
+- [📦.apk](https://github.com/Akshit1903/FeetWings/raw/main/app-release.apk) :For testing purposes
+- [📽️YouTube]() Video
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+<img src="./assets/readme/1.jpg" width="200" height=auto/><img src="./assets/readme/2.jpg" width="200" height=auto/>
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- User Registration and login: New users can create an account by providing their phone number.
+- OTP login- Authentication is done using OTP received by SMS.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# FeetWings" 
-"# FeetWings" 
+## Installation
+
+- Clone the repository:
+  ```shell
+  git clone https://github.com/Akshit1903/FeetWings
+  ```
+- Navigate to the project directory:
+  ```shell
+  cd FeetWings
+  ```
+- Install the required dependencies:
+  ```shell
+  flutter pub get
+  ```
+- Configure a device and run the app
+
+  ```shell
+  flutter run
+  ```
+
+  Alternativly, you can download `.apk` file from <a href="https://github.com/Akshit1903/FeetWings/raw/main/app-release.apk"> here</a> and follow the steps:
+
+- Launch the FeetWings App Authentication on your mobile device.
+- Provide your phone number to begin the registration process.
+- Enter the OTP that is received by SMS.
+- Enjoy using the FeetWings app with a secure and seamless authentication experience!

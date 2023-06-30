@@ -82,12 +82,9 @@ class _AuthScreenState extends State<AuthScreen> {
           setState(() {
             _isLoading = false;
           });
-          print('Code Sent');
           print(verificationId);
-          print('Hi');
           print(resendToken);
           // String smsCode = Provider.of<AppData>(context, listen: false).getOtp;
-          print('here is otp');
           print(otp);
           String smsCode = otp;
           PhoneAuthCredential credential = PhoneAuthProvider.credential(
@@ -128,7 +125,6 @@ class _AuthScreenState extends State<AuthScreen> {
             Navigator.of(context).pop();
           });
           appData.setOtpStatus();
-          print('Heloooo');
           setState(() {
             _isLoading = false;
           });
